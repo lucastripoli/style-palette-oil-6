@@ -1,0 +1,47 @@
+body{
+  font-family: 'Akaya Telivigala', cursive;
+  color:#21181b;
+  background-color: #faf5d8;
+}
+
+.caixa-externa{
+  background-color: #faf5d8;
+  color:#21181b;
+  border: 2px solid #21181b;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 1140px;
+  box-shadow: 5px 5px 5px 3px #d8ae8b;
+}
+
+.caixa-interna{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-bottom: 3px solid #f2ab37;
+}
+
+h1{
+  color:#21181b;
+}
+
+p{
+  font-size: 20px;
+  color: #cd5f2a;
+}
+
+p::before{
+  content:">";
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 3px #d8ae8b;
+  border: 1px solid #cd5f2a;
+  border-bottom: 3px solid #f2ab37;
+  filter: sepia(80%);
+}
